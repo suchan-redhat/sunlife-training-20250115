@@ -182,7 +182,8 @@ git commit -m "Enhanced greeting"
 git log
 ```
 ```
-commit b567b44b1fa64c428a199e9776c64fcb99c2b40d (HEAD -> main) Author: Your User Name <your@user.email>
+commit b567b44b1fa64c428a199e9776c64fcb99c2b40d (HEAD -> main)
+Author: Your User Name <your@user.email>
 Date: Mon Sep 28 11:54:23 2020 +0200
     Enhanced greeting
 commit fd86e63c430e5232e028bce4e8998ec3433859bd
@@ -192,12 +193,13 @@ Date:   Mon Sep 28 11:24:07 2020 +0200
 ```
 > The git log command shows all the commits of the repository in chronological order. The default output includes the commit hash string, the author, the date of the commit, and the commit message.
 
-#### 5.3. Run the git show command to view the latest commit, and the changes made in the repository files.
+#### 5.2. Run the git show command to view the latest commit, and the changes made in the repository files.
 ```bash
 git show
 ```
 ```
-commit b567b44b1fa64c428a199e9776c64fcb99c2b40d (HEAD -> main) Author: Your User Name <your@user.email>
+commit b567b44b1fa64c428a199e9776c64fcb99c2b40d (HEAD -> main)
+Author: Your User Name <your@user.email>
 Date: Mon Sep 28 11:54:23 2020 +0200
     Enhanced greeting
 diff --git a/person.py b/person.py
